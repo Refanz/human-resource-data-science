@@ -214,12 +214,24 @@ Laboratory Technician" memiliki angka attrition tertinggi.
 
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Proyek ini berhasil mengatasi permasalahan tingginya attrition rate di Jaya Jaya Maju dengan mengembangkan model machine
+learning berbasis Random Forest yang mampu mengidentifikasi faktor-faktor penting penyebab keluarnya karyawan serta
+memprediksi potensi attrition. Melalui implementasi metode Embedded, faktor-faktor kunci seperti Usia, Gaji Bulanan,
+Daily Rate, OverTime, Monthly Rate, dan Total Working Years teridentifikasi sebagai pemicu utama. Visualisasi dari
+temuan ini disajikan dalam sebuah business dashboard interaktif yang dibangun menggunakan Metabase, secara jelas
+menunjukkan tren keluar karyawan berdasarkan usia (terutama pada kelompok usia 30 hingga 37.5 tahun), distribusi
+attrition berdasarkan gender (lebih dominan pada pria), status pernikahan, dan peran pekerjaan (dengan Laboratory
+Technician memiliki angka attrition tertinggi), sehingga memungkinkan manajer HR untuk memonitor dan mengambil keputusan
+strategis guna menekan angka attrition secara efektif.
 
-### Rekomendasi Action Items (Optional)
+### Rekomendasi Action Items
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai
-target mereka.
+Berikut ini beberapa rekomendasi action items yang dapat dilakukan perusahaan Jaya Jaya Maju untuk menangani
+permasalahan Attrition pada karyawan.
 
-- action item 1
-- action item 2
+- Overtime menjadi salah satu faktor yang mempengaruhi Attrition pada karyawan. Perusahaan Jaya Jaya Maju dapat lebih
+  memperhatikan karyawan yang memiliki jam kerja lembur dan memberikan kompensasi yang sesuai dengan beban kerja
+  mereka.
+- Dari hasil eksplorasi didapatkan untuk job role Laboratory Technician adalah role dengan jumlah Attrition paling
+  banyak. Perusahaan bisa melakukan evalusasi kepada karyawan dengan role tersebut, kira-kira alasan apa yang membuat
+  mereka berhenti dari pekerjaanya.
