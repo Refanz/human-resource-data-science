@@ -167,7 +167,50 @@ Setelah berhasil login:
 
 ## Business Dashboard
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Berikut ini adalah business dashboard yang telah dibuat pada proyek ini untuk membantu manager deparetemen HR untuk
+melakukan monitoring faktor yang mempengaruhi Attrition Rate.
+
+<img src="refanda_surya-dashboard/dashboard-jaya-jaya-maju.png" alt="dashboard" width=100%>
+
+Dashboard "Jaya Jaya Maju" ini menyajikan gambaran analitik yang komprehensif mengenai dinamika karyawan dan
+faktor-faktor yang memengaruhi attrition atau tingkat keluar karyawan.
+
+Di bagian paling atas, terdapat kartu-kartu
+metrik kunci yang secara ringkas menunjukkan total 1,470 karyawan, dengan 879 di antaranya berstatus aktif, 179 karyawan
+telah keluar, dan 412 karyawan lainnya berada dalam status tidak tersedia, memberikan sekilas informasi penting mengenai
+jumlah dan status karyawan.
+
+**Tren Karyawan Keluar Berdasarkan Usia**
+
+Grafik tersebut menunjukkan pola attrition seiring bertambahnya usia, dengan puncaknya terlihat
+pada kelompok usia 30 hingga 37.5 tahun.
+
+**Distribusi Attrition Karyawan Berdasarkan Gender**
+
+Grafik tersebut menunjukkan jumlah karyawan yang keluar berdasarkan jenis kelamin, di
+mana visualisasi ini mengindikasikan adanya jumlah keluar yang lebih dominan pada karyawan pria dibandingkan wanita.
+
+**6 Faktor Penting yang Mempengaruhi Attrition Rate**
+
+Grafik tersebut menunjukkan hasil analisis feature importance dari model prediktif,
+terlihat bahwa Age, MonthlyIncome, DailyRate, OverTime, MonthlyRate dan TotalWorkingYears merupakan faktor-faktor paling
+yang memengaruhi keputusan karyawan untuk meninggalkan perusahaan. Enam faktor ini didapatkan dari hasil pencarian fitur
+penting menggunakan metode Embedded dengan model Random Forest.
+
+**Komposisi Karyawan Berdasarkan Status Attrition**
+
+Grafik tersebut menampilkan proporsi karyawan yang tetap bertahan lebih besar dibandingkan dengan yang keluar dari total
+populasi.
+
+**Distribusi Attrition Karyawan berdasarkan Status Pernikahan**
+
+Grafik ini menunjukkan mengenai bagaimana tingkat keluar karyawan terdistribusi di antara status pernikahan yang
+berbeda (cerai, menikah, lajang)
+
+**Distribusi Jumlah Karyawan Keluar berdasarkan Job Role**
+
+Grafik tersebut menunjukkan peran-peran pekerjaan mana yang mengalami jumlah keluar karyawan terbanyak, di mana "
+Laboratory Technician" memiliki angka attrition tertinggi.
 
 ## Conclusion
 
